@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a megaproject that contains a whole lot of stuff covering api, large data storage and retrievals, apart from videos managing to messages",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
     "megaproject"
   ],
   "author": "anu priya kumari",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
 }
